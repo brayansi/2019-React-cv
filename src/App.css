@@ -44,6 +44,19 @@
     font-weight: bold !important;
   }
 
+  .hamburger-menu {
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    top: 50px;
+  }
+
+  
+  .hamburger-menu i{
+    font-size: 32px;
+    color: #16A086 !important;
+  }
+
 
   
   

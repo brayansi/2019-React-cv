@@ -1,5 +1,5 @@
 import React, { Component, Suspense } from "react";
-import { SideNav, SideNavItem } from "react-materialize";
+import { SideNav, Button } from "react-materialize";
 import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
 
 import "./App.css";
@@ -33,7 +33,10 @@ class App extends Component {
                 <Router>
                     <div>
                         <header>
-                            <SideNav fixed={true} className="sid-nav">
+                            <SideNav fixed={true} className="sid-nav"  trigger={
+                                <a href="#" data-target="nav-mobile" className="hamburger-menu">
+                                    <i className="material-icons">menu</i>
+                                </a>}  options={{ closeOnClick: false }}>
                                 <div className="userView">
                                     <img className="circle" src='https://avatars2.githubusercontent.com/u/25830852?s=400&u=d4658e01f2c98bc389448ae52b287053475cd600&v=4' alt='user-image' />
                                 </div>

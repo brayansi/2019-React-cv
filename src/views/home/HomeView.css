@@ -9,9 +9,7 @@
   right: 0;
   display: flex;
   top: 0;
-  z-index: 9999;
   margin-left: 300px;
-  padding: 15px;
 }
 
 .content {
@@ -23,15 +21,13 @@
   right: 0;
   display: flex;
   top: 0;
-  z-index: 9999;
   margin-left: 300px;
-  padding: 15px;
 }
 
 .content-flex {
-    width: 100%;
     display: flex;
     align-items: center;
+    overflow-y: auto;
 }
 
 .apresentation {
@@ -67,3 +63,28 @@
 .ass-image img{
   width: 100%;
 }
+
+.button-color, .button-color:hover, .button-color:active, .button-color:focus {
+  background-color: #000000;
+}
+
+@media only screen and (max-width: 601px) {
+  .row .col {
+    float: none;
+  }
+
+  .apresentation h3 {
+    font-size: 20px;
+  }
+
+.apresentation h1 {
+    font-size: 40px;
+
+}
+
+.apresentation h2 {
+    font-size: 20px;
+
+}
+}
+

@@ -11,21 +11,20 @@ class HomeView extends Component {
     }
     render() {
         return (
-
             <div>
                 <div className="container-background"></div>
-                <div className="content">
-                    <Row className="content-flex">
-                        <Col s={6} className="ass-image">
+                <div className="content content-flex">
+                    <Row className="">
+                        <Col l={6} m={12} className="ass-image">
                             <img src={mainLogo} alt='ass' />
                         </Col>
-                        <Col s={6} className="apresentation">
+                        <Col l={6} m={12} className="apresentation">
                             <div>
                                 <h3>Hi, I'm</h3>
                                 <h1>BRAYAN SANTOS</h1>
                                 <h2>FRONT END DEVELOPER</h2>
                                 <div className="center-align">
-                                    <Button waves='light'>button<Icon right>cloud</Icon></Button>
+                                    <Button waves='light' className="button-color">DOWNLOAD RESUME<Icon right>cloud_download</Icon></Button>
                                 </div>
                             </div>
                         </Col>
