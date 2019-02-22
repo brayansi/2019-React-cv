@@ -9,19 +9,12 @@
   right: 0;
   display: flex;
   top: 0;
-  margin-left: 300px;
 }
 
-.content {
-  background-size: cover;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.3) no-repeat center center fixed;
-  position: fixed;
-  left: 0;
-  right: 0;
-  display: flex;
-  top: 0;
-  margin-left: 300px;
+.container-text {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3) no-repeat center center fixed;
+    position: fixed;
 }
 
 .content-flex {
@@ -62,10 +55,6 @@
 
 .ass-image img{
   width: 100%;
-}
-
-.button-color, .button-color:hover, .button-color:active, .button-color:focus {
-  background-color: #000000;
 }
 
 @media only screen and (max-width: 601px) {

@@ -13,7 +13,7 @@ class HomeView extends Component {
         return (
             <div>
                 <div className="container-background"></div>
-                <div className="content content-flex">
+                <div className="container-text content-flex">
                     <Row className="">
                         <Col l={6} m={12} className="ass-image">
                             <img src={mainLogo} alt='ass' />
@@ -24,7 +24,7 @@ class HomeView extends Component {
                                 <h1>BRAYAN SANTOS</h1>
                                 <h2>FRONT END DEVELOPER</h2>
                                 <div className="center-align">
-                                    <Button waves='light' className="button-color">DOWNLOAD RESUME<Icon right>cloud_download</Icon></Button>
+                                    <Button waves='light' className="button-resume">DOWNLOAD RESUME<Icon right>cloud_download</Icon></Button>
                                 </div>
                             </div>
                         </Col>

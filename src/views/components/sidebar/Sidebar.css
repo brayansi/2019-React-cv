@@ -1,0 +1,53 @@
+/*
+    Side Nav
+  */
+  .sid-nav {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .side-nav .userView {
+    text-align: -webkit-center;
+    margin-bottom: 20px;
+  }
+  
+  .side-nav .userView .circle {
+    height: 75%;
+    width: 75%;
+  }
+  
+  .side-nav a {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.70);
+    font-weight: normal;
+  }
+  
+  
+  .side-nav a:hover {
+    color: rgba(255, 255, 255, 1);
+    font-weight: normal;
+  }
+
+  .navbar-nav span[role=button] {
+    padding: 15px;
+    display: inline-block;
+    line-height: 20px;
+  }
+
+  .link-selected {
+    color: #16A086 !important;
+    font-weight: bold !important;
+  }
+
+  .hamburger-menu {
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+    top: 30px;
+  }
+
+  
+  .hamburger-menu i{
+    font-size: 32px;
+    color: #16A086 !important;
+  }

@@ -1,5 +1,13 @@
+header, main, footer, .content {
+    margin-left: 300px;
+}
+  
 @media only screen and (max-width: 992px) {
-    .content, .container-background {
+    header, main, footer, .content  {
         margin-left: 0px !important;
     }
+}
+
+.button-resume, .button-resume:hover, .button-resume:active, .button-resume:focus {
+    background-color: #000000;
 }
