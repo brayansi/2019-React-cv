@@ -12,10 +12,24 @@
 }
 
 .container-text {
-    height: 100%;
-    background: rgba(255, 255, 255, 0.3) no-repeat center center fixed;
-    position: fixed;
+  background-size: cover;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3) no-repeat center center fixed;
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  top: 0;
+  margin-left: 300px;
 }
+
+@media only screen and (max-width: 992px) {
+  .container-text {
+    margin-left: 0px;
+  }
+}
+
+
 
 .content-flex {
     display: flex;
