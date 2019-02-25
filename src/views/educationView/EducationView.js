@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from '../components/navbar/Navbar';
 
 class EducationView extends Component {
     constructor(props) {
@@ -6,8 +7,11 @@ class EducationView extends Component {
         this.state = {  }
     }
     render() { 
-        return ( <div>EducationView</div> );
-    }
+        return (
+            <div>
+                <Navbar name="Education" />
+            </div>
+        );    }
 }
  
 export default EducationView;

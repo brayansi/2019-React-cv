@@ -1,32 +1,32 @@
 
 .container-background {
-  background: url("./../../assets/img/front-end-dev-1024x682.png") no-repeat
-    center center fixed;
-  background-size: cover;
-  height: 100%;
-  position: fixed;
-  left: 0;
-  right: 0;
-  display: flex;
-  top: 0;
+    background: url("./../../assets/img/front-end-dev-1024x682.png") no-repeat
+        center center fixed;
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    top: 0;
 }
 
 .container-text {
-  background-size: cover;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.3) no-repeat center center fixed;
-  position: fixed;
-  left: 0;
-  right: 0;
-  display: flex;
-  top: 0;
-  margin-left: 300px;
+    background-size: cover;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3) no-repeat center center fixed;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    top: 0;
+    margin-left: 300px;
 }
 
 @media only screen and (max-width: 992px) {
-  .container-text {
-    margin-left: 0px;
-  }
+    .container-text {
+        margin-left: 0px;
+    }
 }
 
 
@@ -38,8 +38,8 @@
 }
 
 .apresentation {
-  justify-content: center;
-  display: flex;
+    justify-content: center;
+    display: flex;
 }
 
 .apresentation h3 {
@@ -64,30 +64,50 @@
 }
 
 .apresentation button {
-  text-align: center;
+    text-align: center;
 }
 
 .ass-image img{
-  width: 100%;
+    width: 100%;
 }
 
 @media only screen and (max-width: 601px) {
-  .row .col {
-    float: none;
-  }
+    .row .col {
+        float: none;
+    }
 
-  .apresentation h3 {
-    font-size: 20px;
-  }
+    .apresentation h3 {
+        font-size: 20px;
+    }
 
-.apresentation h1 {
-    font-size: 40px;
+    .apresentation h1 {
+        font-size: 40px;
+    }
 
+    .apresentation h2 {
+        font-size: 20px;
+    }
 }
 
-.apresentation h2 {
-    font-size: 20px;
 
+@media all and (min-width: 993px) and (max-width:1298px) {
+    .apresentation h3 {
+        font-size: 20px;
+    }
+
+    .apresentation h1 {
+        font-size: 40px;
+    }
+    .apresentation h2 {
+        font-size: 20px;
+    }
 }
+
+@media all and (min-width: 768px) and (max-width:992px) {
+    .ass-image {
+        max-width: 747px !important;
+        float: none !important;
+    }
 }
+
 

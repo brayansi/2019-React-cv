@@ -2,13 +2,13 @@ import React, { Suspense } from 'react'
 import { Route } from 'react-router-dom';
 
 const AboutMeView = React.lazy(() => import("./../../aboutMeView/AboutMeView"));
-const BlogView = React.lazy(() => import("./../../BlogView"));
-const ContactView = React.lazy(() => import("./../../ContactView"));
-const EducationView = React.lazy(() => import("./../../EducationView"));
-const ExperienceView = React.lazy(() => import("./../../ExperienceView"));
+const BlogView = React.lazy(() => import("./../../blogView/BlogView"));
+const ContactView = React.lazy(() => import("./../../conatactView/ContactView"));
+const EducationView = React.lazy(() => import("./../../educationView/EducationView"));
+const ExperienceView = React.lazy(() => import("./../../experianceView/ExperienceView"));
 const HomeView = React.lazy(() => import("./../../home/HomeView"));
-const PortifolioView = React.lazy(() => import("./../../PortifolioView"));
-const SkillsView = React.lazy(() => import("./../../SkillsView"));
+const PortifolioView = React.lazy(() => import("./../../portifolioView/PortifolioView"));
+const SkillsView = React.lazy(() => import("./../../skillsView/SkillsView"));
 
 export default function Content(props) {
     return <main>

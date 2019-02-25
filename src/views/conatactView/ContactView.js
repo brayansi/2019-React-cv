@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from '../components/navbar/Navbar';
 
 class ContactView extends Component {
     constructor(props) {
@@ -6,8 +7,11 @@ class ContactView extends Component {
         this.state = {  }
     }
     render() { 
-        return ( <div>ContactView</div> );
-    }
+        return (
+            <div>
+                <Navbar name="Contact" />
+            </div>
+        );    }
 }
  
 export default ContactView;
