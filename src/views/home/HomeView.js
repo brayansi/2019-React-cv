@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Button, Icon } from "react-materialize";
 import mainLogo from './../../assets/img/Assinatura-digital.png';
-
+import Contact from './../components/contact/Contact'
 import './HomeView.css';
 
 class HomeView extends Component {
@@ -29,6 +29,7 @@ class HomeView extends Component {
                             </div>
                         </Col>
                     </Row>
+                <Contact></Contact>
                 </div>
             </div>
         );

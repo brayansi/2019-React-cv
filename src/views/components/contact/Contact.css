@@ -1,0 +1,15 @@
+.container-contact {
+    padding: 20px 60px;
+}
+.container-contact, .container-contact a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.container-contact a img {
+    width: 75%;
+    height: auto;
+}
