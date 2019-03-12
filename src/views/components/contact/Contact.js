@@ -6,9 +6,6 @@ import insta from './../../../assets/icons/btn--insta__rounded.png';
 import youtube from './../../../assets/icons/btn--yt__rounded.png';
 import twitter from './../../../assets/icons/btn-twi__rounded.png';
 
-
-
-
 import './Contact.css';
 
 class Contact extends Component {

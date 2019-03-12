@@ -1,0 +1,123 @@
+.container-timeline {
+    margin: 32px;
+}
+
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5em 0;
+    list-style-type: none;
+}
+
+.timeline:before {
+    position: absolute;
+    top: 0;
+    content: ' ';
+    display: block;
+    width: 3px;
+    height: 100%;
+    margin-left: -3px;
+    background: rgb(80,80,80);
+    background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgba(80, 80, 80, 0.5) 8%, rgba(80, 80, 80, 0.75) 92%, rgba(80,80,80,0) 100%);
+    background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgba(80, 80, 80, 0.5) 8%, rgba(80, 80, 80, 0.75) 92%, rgba(80,80,80,0) 100%);
+}
+
+.timeline li {
+    padding: 1em;
+}
+
+.timeline li:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.direction {
+    position: relative;
+    width: 100%;
+    float: right;
+}
+
+.direction h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.direction h2 span, .direction p{
+    font-size: 22px;
+    font-weight: normal;
+    color: #0000007c;
+}
+
+.direction p {
+    font-size: 20px;
+    margin: 10px 0;
+    margin-left: 40px;
+}
+
+.direction span {
+    color: #16A086;
+}
+
+.direction:before {
+    position: relative;
+    right: 26px;
+    top: 21px;
+    content: ' ';
+    float: left;
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-top: -10px;
+    background: #fff;
+    border-radius: 10px;
+    border: 10px solid #898989;;
+    z-index: 10;
+}
+
+.icon {
+    position: relative;
+    right: 16px;
+    bottom: 80px;
+    color: #898989;
+    z-index: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .direction h2 {
+        font-size: 18px;
+    
+    }
+    
+    .direction h2 span, .direction p{
+        font-size: 18px;
+
+    }
+    
+    .direction p {
+        font-size: 16px;
+
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .direction h2 {
+        font-size: 12px;
+    
+    }
+    
+    .direction h2 span, .direction p, .direction span{
+        font-size: 12px;
+
+    }
+    
+    .direction p {
+        font-size: 10px;
+
+    }
+}
